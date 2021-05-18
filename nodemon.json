@@ -1,0 +1,7 @@
+{
+    "exec": "npm run start:dev",
+    "watch": [
+        "src/**/*.ts"
+    ],
+    "ext": "ts"
+}

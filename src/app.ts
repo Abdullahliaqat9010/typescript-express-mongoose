@@ -41,12 +41,6 @@ export class App {
     const adminBro = new AdminBro({
       databases: [connection],
       rootPath: "/admin",
-      dashboard: {
-        handler: async () => {
-          return { some: "output" };
-        },
-        component: AdminBro.bundle("./admin/components/Dashboard/index.js"),
-      },
     });
     const adminRouter = AdminBroExpress.buildAuthenticatedRouter(
       adminBro,

@@ -1,3 +1,3 @@
-export * from "./Environment.interface";
-export * from "./DatabaseError.interface";
-export * from "./HttpStatusCodes.interface";
+export * from "./environment.interface";
+export * from "./databaseError.interface";
+export * from "./httpStatusCodes.interface";
